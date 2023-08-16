@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    gap:20px;
+    cursor: pointer;
+}
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index {
+    font-size: 20px;
+    font-weight: 500;
+}
+.ellipsis {
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.timer {
+    color:#9791e9
+}
+.km {
+    color: #4089e1
+}
+.selected {
+    border-radius: 50%;
+    padding: 2px;
+    background-color: violet;
+}
+.selectedText{
+    padding: 2px;
+    color: violet;
+}
+
+.name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
